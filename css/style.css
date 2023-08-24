@@ -1,0 +1,746 @@
+/* open-sans-300 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/open-sans-v34-latin-300.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/open-sans-v34-latin-300.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/open-sans-v34-latin-300.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/open-sans-v34-latin-300.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/open-sans-v34-latin-300.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/open-sans-v34-latin-300.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v34-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/open-sans-v34-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/open-sans-v34-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/open-sans-v34-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/open-sans-v34-latin-regular.svg#OpenSans') format('svg');
+  /* Legacy iOS */
+}
+/* raleway-300 - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/raleway-v28-latin-300.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/raleway-v28-latin-300.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/raleway-v28-latin-300.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/raleway-v28-latin-300.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/raleway-v28-latin-300.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/raleway-v28-latin-300.svg#Raleway') format('svg');
+  /* Legacy iOS */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/raleway-v28-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/raleway-v28-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/raleway-v28-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/raleway-v28-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/raleway-v28-latin-regular.svg#Raleway') format('svg');
+  /* Legacy iOS */
+}
+:root {
+  --OpenSans: 'Open Sans' sans-serif;
+  --Raleway: 'Raleway';
+  --GreenPersian: #07AAA5;
+  --lightGreen: #82B440;
+  --lightBlack: #535353;
+  --DarkBlack: #222222;
+  --MidBlack: #000000;
+}
+body {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.spacer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 5px 0;
+}
+/* -----------------Start Slider Button  ---------------------- */
+.button_btn {
+  margin-top: 75px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn_btn{
+  padding: 10px 30px;
+  letter-spacing: 1px;
+}
+.btn_btn {
+  position: relative;
+  z-index: 5;
+  color: #c95656;
+}
+.btn_btn:hover span {
+  color: #000000;
+}
+.btn_read {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.btn_buy {
+  color: black;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* ----- Let's Talk ----- */
+.btn_let_talk {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: var(--lightGreen);
+  border: none;
+  position: relative;
+}
+
+/* ----------------- End Slider Button  ---------------------- */
+/* ----Get's Touch button ---- */
+.btn_btn_1{
+  padding: 15px 30px;
+  letter-spacing: 1px;
+}
+.btn_btn_1 span {
+  position: relative;
+  z-index: 5;
+  color: black;
+  font-weight: bold;
+}
+
+.btn_get_touch {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.title_top h5 {
+  font-size: 14px;
+  color: var(--lightBlack);
+  font-family: var(--OpenSans);
+}
+.title_top h2 {
+  font-size: 45px;
+  color: var(--MidBlack);
+  font-family: var(--Raleway);
+}
+/* ===========================================================================================
+                                            Start Header
+  ============================================================================================== */
+.top_menu img {
+  width: 100%;
+}
+/* ======================= Start Navbar ======================= */
+.main_navigation {
+  position: absolute;
+  top: 15px;
+  z-index: 999;
+  width: 100%;
+}
+.main_menu li a {
+  padding: 10px 20px;
+  display: block;
+  color: #ffff;
+  font-family: var(--OpenSans);
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.main_menu li a i{
+  padding: 5px 5px;
+  display: block;
+  font-size: 15px;
+}
+.main_menu li a.active,
+.main_menu li:hover>a {
+  color: var(--GreenPersian) !important;
+}
+.main_menu li {
+  padding: 0 10px;
+  display: block;
+}
+.navbar-toggler{
+  background-color: #ffffff;
+}
+/* ======================= End Navbar ======================= */
+
+/* ======================= Start Slider ======================= */
+#loop_1 .item img {
+  width: 100%;
+  height: 100vh;
+}
+#loop_1 .item {
+  position: relative;
+}
+.banner_para_1 {
+  position: absolute;
+  top: 33%;
+  left: 38%;
+  max-width: 750px;
+  text-align: end;
+}
+.slider_1_top {
+  font-size: 17px;
+  color: #ffffff;
+  font-family: var(--Raleway);
+  font-weight: 300;
+}
+.slider_1_h2 {
+  font-size: 54px;
+  color: #ffffff;
+  font-family: var(--Raleway);
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.slider_1_para {
+  font-size: 17px;
+  color: #ffffff;
+  font-family: var(--Raleway);
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.banner_para_2 {
+  position: absolute;
+  top: 42%;
+  left: 27%;
+  max-width: 750px;
+  text-align: center;
+}
+.banner_para_3 {
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  max-width: 500px;
+  text-align: start;
+}
+#loop_1.owl-carousel .owl-nav button.owl-next,
+#loop_1.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  font-size: 15px;
+  height: 25px;
+  width: 25px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  color: rgb(132, 131, 131);
+  font-weight: bold;
+}
+#loop_1.owl-carousel .owl-nav button.owl-next {
+  left: 93%;
+}
+#loop_1.owl-carousel .owl-nav button.owl-prev {
+  right: 95%;
+}
+#loop_1.owl-carousel .owl-nav button.owl-prev:hover,
+#loop_1.owl-carousel .owl-nav button.owl-next:hover {
+  color: white;
+  cursor: pointer;
+}
+/* ======================= End Slider ======================= */
+
+/* ======================= Start What We Offer ======================= */
+.what_we_offer_para i {
+  transform: scale(4);
+  margin: 10px 0 30px;
+}
+.what_we_offer_para:hover>i {
+  transform: scale(5);
+}
+.one>i,
+.one:hover>h5 {
+  color: var(--lightGreen);
+}
+.two>i,
+.two:hover>h5 {
+  color: var(--GreenPersian);
+}
+.what_we_offer_para h5 {
+  font-size: 18px;
+  color: var(--MidBlack);
+  font-family: var(--Raleway);
+  font-weight: bold;
+  margin: 15px 0;
+}
+.what_we_offer_para p {
+  font-size: 14px;
+  color: var(--lightBlack);
+  font-family: var(--OpenSans);
+  margin-bottom: 35px;
+}
+/* ======================= End What We Offer ======================= */
+
+/* ============ Start Looking For Exclusive Digital Services ============ */
+.bgcssimg {
+  background-image: url(../img/bgcssimg1.jpg);
+  background-position: 50% 5px;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 10% 0;
+}
+.looking_img h5 {
+  color: white;
+  font-size: 14px;
+  font-family: var(--OpenSans);
+  margin-bottom: 25px;
+}
+.looking_img h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: var(--Raleway);
+  margin-bottom: 30px;
+}
+/* ============ End Looking For Exclusive Digital Services ============ */
+
+/* ======================= Start Unique Experience ======================= */
+.unique_para h5 {
+  font-size: 24px;
+  color: var(--MidBlack);
+  font-family: var(--Raleway);
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.unique_para p {
+  color: var(--lightBlack);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.unique_feature h5 {
+  font-size: 16px;
+  color: var(--MidBlack);
+  font-family: var(--Raleway);
+  font-weight: bold;
+  margin: 50px 0 25px;
+}
+.unique_feature li {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.unique_icon i:first-child {
+  font-size: 60px;
+}
+.unique_icon i:nth-child(2) {
+  font-size: 35px;
+  margin: 0 15px;
+}
+.unique_icon i:last-child {
+  font-size: 25px;
+}
+/* ======================= End Unique Experience ======================= */
+
+/* ======================= Start Number Box 4 =========================*/
+.num_box_content {
+  padding: 25% 0% !important;
+}
+.num_box_1,
+.num_box_4 {
+  background-color: var(--lightGreen);
+}
+.num_box_2 {
+  background-color: grey;
+}
+.num_box_3 {
+  background-color: var(--GreenPersian);
+}
+.num_box_content i {
+  color: #ffffff;
+  transform: scale(3.5);
+}
+.num_box_content i:hover {
+  transform: scale(4.5);
+}
+.num_box_content p {
+  font-size: 48px;
+  color: #ffffff;
+  margin: 30px;
+}
+/* ======================= End Number Box 4 =========================*/
+
+/* ======================= Start Our Expertise ====================== */
+.our_exper_para {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: var(--lightGreen);
+}
+/* ======================= End Our Expertise ====================== */
+
+/* ================== Start End What We Do ======================= */
+.bgcolor_what_we {
+  background-color: #ececec;
+}
+.hot_design {
+  background-color: #ffffff;
+}
+.hot_design_icon_1,
+.hot_design_icon_2 {
+  width: 100%;
+  height: 72px;
+  background-color: grey;
+  position: relative;
+}
+.bgcolor_box:hover .hot_design_icon_1,
+.bgcolor_box:hover .hot_design_icon_2,
+.bgcolor_box:hover .border_radius_1,
+.bgcolor_box:hover .border_radius_2 {
+  background-color: var(--GreenPersian);
+}
+.hot_design_icon_2 {
+  background-color: var(--lightGreen);
+}
+.hot_design_icon_1 i,
+.hot_design_icon_2 i {
+  font-size: 50px;
+  color: #ffffff;
+  line-height: 100px;
+  z-index: 2;
+}
+.border_radius_1,
+.border_radius_2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 40px  auto 0 auto; 
+  text-align: center;
+}
+.border_radius_2 {
+  background-color: var(--lightGreen);
+}
+.hot_design {
+  padding: 90px 0;
+}
+.hot_design p {
+  padding: 0 17px;
+}
+/* ==================  End What We Do ======================= */
+
+/* ==================  Start Latest Projects ======================= */
+.latest_ul li a {
+  padding: 6px 12px;
+  display: block;
+  font-size: 15px;
+  color: var(--MidBlack);
+}
+.latest_ul li a.active {
+  color: #ffffff;
+  background-color: var(--lightGreen);
+}
+.latest_ul li:hover>a {
+  color: #ffffff;
+  background-color: var(--GreenPersian);
+}
+.latest_img_grid {
+  display: grid;
+  grid-template-areas:
+    'box_1 box_1 box_2 box_3'
+    'box_1 box_1 box_6 box_6'
+    'box_4 box_5 box_6 box_6';
+}
+.box_1 {
+  grid-area: box_1;
+}
+.box_2 {
+  grid-area: box_2;
+}
+.box_3 {
+  grid-area: box_3;
+}
+.box_4 {
+  grid-area: box_4;
+}
+.box_5 {
+  grid-area: box_5;
+}
+.box_6 {
+  grid-area: box_6;
+}
+.latest_img {
+  position: relative;
+  overflow: hidden;
+}
+.latest_img img {
+  transform: scale(1);
+  transition: 1s;
+}
+.latest_img img:hover {
+  transform: scale(1.2);
+}
+.latest_img_layer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 2%;
+  transform: scale(0);
+  transition: 0.4s;
+}
+.latest_img:hover .latest_img_layer,
+.latest_img:hover .latest_img_para {
+  transform: scale(1);
+}
+.latest_img_para {
+  position: absolute;
+  top: 38%;
+  left: 0;
+  transform: scale(0);
+}
+.latest_img_para h5 {
+  color: var(--lightGreen);
+}
+.latest_img_para {
+  position: relative;
+}
+.latest_img_para h5::before {
+  content: '';
+  position: absolute;
+  top: 56%;
+  right:  50%;
+  width: 0%;
+  height: 1px;
+  background: black;
+  transition: 1s;
+}
+.latest_img_para h5::before{
+  width: 20%;
+} 
+.latest_img_para h5::after {
+  content: '';
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  width: 0%;
+  height: 1px;
+  background: black;
+}
+.latest_img_para h5::after{
+  width: 20%;
+} 
+/* ==================  End Latest Projects ======================= */
+
+/* ==================  Start Our Happy Clients ======================= */
+.bgcss_img2 {
+  background-image: url(../img/bgcssimg2.jpg);
+  background-position: 50% 5px;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 2% 0;
+}
+.our_happy h2 {
+  font-size: 45px;
+  color: var(--lightGreen);
+}
+#loop_2 .item p{
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 31px;
+  padding: 30px 237px;
+} 
+#loop_2.owl-carousel .owl-nav button.owl-next,
+#loop_2.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  font-size: 15px;
+  height: 45px;
+  width: 45px;
+  color: white;
+  background-color: transparent;
+  outline: 2px solid #ffffff;
+  outline-offset: 2px ; 
+  border-radius: 100%;
+  font-weight: bold;
+}
+#loop_2.owl-carousel .owl-nav button.owl-next {
+  left: 93%;
+}
+#loop_2.owl-carousel .owl-nav button.owl-prev {
+  right: 95%;
+}
+#loop_2.owl-carousel .owl-nav button.owl-prev:hover,
+#loop_2.owl-carousel .owl-nav button.owl-next:hover {
+  cursor: pointer;
+}
+/* ==================  End Our Happy Clients ======================= */
+
+/* ================= Start Our Publications ======================== */
+#loop_3 .iteam img{
+  width: 100%;
+}
+.our_public_slider h5{
+  font-size: 14px;
+  color: var(--lightBlack);
+  margin: 25px 0 10px;
+}
+.our_public_slider h4{
+  font-size: 20px;
+  color: var(--MidBlack);
+}
+.our_public_slider p a{
+  margin: 10px 0;
+  color: var(--lightGreen);
+}
+.our_public_slider .p{
+  margin: 10px 0;
+  font-size: 14px;
+  color: var(--lightBlack);
+  letter-spacing: 1px;
+}
+.our_public_slider a{
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+}
+.our_public_slider:hover a{
+  color: var(--lightGreen);
+}
+#loop_3.owl-carousel .owl-nav button.owl-next,
+#loop_3.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  height: 35px;
+  width: 35px;
+  color: grey;
+  background-color: transparent;
+  outline: 2px solid gray;
+  border-radius: 100%;
+  font-weight: bold;
+}
+
+#loop_3.owl-carousel .owl-nav button.owl-next {
+  left: 100%;
+}
+#loop_3.owl-carousel .owl-nav button.owl-prev {
+  right: 100%;
+}
+#loop_3.owl-carousel .owl-nav button.owl-prev:hover,
+#loop_3.owl-carousel .owl-nav button.owl-next:hover {
+  color: #ffffff;
+  background-color: var(--lightGreen);
+  cursor: pointer;
+}
+/* ================= End Our Publications ======================== */
+
+/* ================= Start Get in Touch ======================== */
+.bgcolor_get_touch{
+  background-color: var(--lightGreen);
+  width: 100%;
+}
+.get_touch_para p{
+  font-size: 20px;
+  color: #ffffff;
+}
+/* ================= End Get in Touch ======================== */
+
+/* ================= Start We are here ======================== */
+.bgcolor_we_are_here{
+  background-color:#f5f5f5;
+}
+.we_are_here{
+margin-bottom: 45px;
+}
+.we_are_here_icon i{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: #333333;
+  font-size: 22px;
+  margin: auto;
+  line-height: 47px;
+  outline: 1px solid rgb(56, 55, 55);
+  transition: .4s;
+  margin: 5px 3px;
+}
+.we_are_here_icon:hover i{
+  color: #ffffff;
+  background-color: var(--lightGreen);
+}
+.table_input input{
+  padding: 5px 60px 5px 10px;
+  border: 1px solid #d0d0d0;;
+}
+textarea{
+  border: 1px solid #d0d0d0;;
+}
+.send_message_now h2{
+  font-size: 25px;
+  color: var(--txtDark);
+  font-family: var(--fontsPoppins);
+  font-weight: 700;
+}
+.send_message_now p{
+  font-size: 16px;
+  color: var(--txtLight);
+  font-family: var(--fontsRobot);  
+  margin: auto;
+}
+/* ================== End We are here ========================= */
+
+/* ================== Start Footer ========================= */
+.bgfooter_black{
+  background-color: black;
+}
+.footer_ul li a{
+  color: #ffffff;
+  padding: 10px 20px;
+  display: block;
+}
+.footer_copy p{
+  color: #A6A6A6;
+}
+/* ================== End Footer ========================= */
